@@ -127,7 +127,7 @@ Lệnh `llms` làm theo đề xuất cộng đồng tại [llmstxt.org](https://
 
 ## Dùng bản web miễn phí
 
-Tham khảo nền tảng bán khóa học [Mona.Academy](https://mona.academy). Công cụ web riêng cho package này hiện **(chưa rõ — hỏi Mon)**.
+Cần website bán khóa học có sẵn schema, thanh toán và bảo vệ video thì xem nền tảng [Mona.Academy](https://mona.academy).
 
 ## Giới hạn đã biết
 
