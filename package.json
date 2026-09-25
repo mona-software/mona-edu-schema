@@ -1,0 +1,27 @@
+{
+  "name": "mona-edu-schema",
+  "version": "0.1.0",
+  "description": "Sinh và kiểm tra JSON-LD cho website giáo dục Việt Nam",
+  "keywords": ["schema.org", "json-ld", "course", "education", "seo", "geo", "vietnam"],
+  "license": "MIT",
+  "author": "The MONA Group",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "git+https://github.com/themonagroup/mona-edu-schema.git" },
+  "homepage": "https://github.com/themonagroup/mona-edu-schema#readme",
+  "files": ["dist", "README.md", "LICENSE"],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "browser": "./dist/browser.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.cjs" },
+    "./browser": "./dist/browser.js"
+  },
+  "bin": { "mona-edu-schema": "./dist/cli.js" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node --test",
+    "lint": "node scripts/lint.mjs"
+  }
+}

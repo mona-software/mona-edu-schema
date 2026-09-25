@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "https://thcs.example.edu.vn/#organization",
+  "name": "Trường THCS Mẫu Hòa Bình",
+  "description": "Dữ liệu hư cấu minh họa website một trường trung học cơ sở.",
+  "url": "https://thcs.example.edu.vn/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Đà Nẵng",
+    "addressCountry": "VN"
+  }
+}

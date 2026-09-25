@@ -1,0 +1,50 @@
+site:
+  name: Giảng viên Mẫu Minh
+  baseUrl: https://giangvien.example.vn
+  language: vi
+organization:
+  type: Person
+  name: Trần Văn Minh (nhân vật hư cấu)
+  description: Hồ sơ mẫu của giảng viên độc lập bán ba khóa học online.
+  url: https://giangvien.example.vn
+  knowsAbout:
+    - Excel
+    - Phân tích dữ liệu
+  sameAs:
+    - https://linkedin.com/in/giang-vien-mau
+courses:
+  - name: Excel cho người mới
+    slug: khoa-hoc/excel-co-ban
+    description: Nắm công thức, bảng dữ liệu và thao tác Excel cơ bản.
+    educationalLevel: Cơ bản
+    instance:
+      courseMode: online
+      startDate: 2026-10-01
+      instructor:
+        - Trần Văn Minh (nhân vật hư cấu)
+      offer:
+        price: 490000
+        priceCurrency: VND
+        url: https://giangvien.example.vn/khoa-hoc/excel-co-ban
+  - name: Dashboard Excel thực hành
+    slug: khoa-hoc/dashboard-excel
+    description: Tạo dashboard dễ đọc từ dữ liệu kinh doanh mẫu.
+    educationalLevel: Trung cấp
+    instance:
+      courseMode: online
+      startDate: 2026-10-15
+      offer:
+        price: 790000
+        priceCurrency: VND
+        url: https://giangvien.example.vn/khoa-hoc/dashboard-excel
+  - name: Làm sạch dữ liệu với Power Query
+    slug: khoa-hoc/power-query
+    description: Chuẩn hóa và gộp dữ liệu bằng Power Query.
+    educationalLevel: Trung cấp
+    instance:
+      courseMode: online
+      startDate: 2026-11-01
+      offer:
+        price: 890000
+        priceCurrency: VND
+        url: https://giangvien.example.vn/khoa-hoc/power-query

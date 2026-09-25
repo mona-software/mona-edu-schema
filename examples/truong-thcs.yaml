@@ -1,0 +1,33 @@
+site:
+  name: Trường THCS Mẫu Hòa Bình
+  baseUrl: https://thcs.example.edu.vn
+  language: vi
+organization:
+  name: Trường THCS Mẫu Hòa Bình
+  description: Dữ liệu hư cấu minh họa website một trường trung học cơ sở.
+  url: https://thcs.example.edu.vn
+  address:
+    addressLocality: Đà Nẵng
+    addressCountry: VN
+courses:
+  - name: Câu lạc bộ Toán lớp 6
+    slug: chuong-trinh/toan-6
+    description: Rèn tư duy giải bài toán dành cho học sinh lớp 6.
+    educationalLevel: Lớp 6
+  - name: Câu lạc bộ Khoa học lớp 7
+    slug: chuong-trinh/khoa-hoc-7
+    description: Thực hành thí nghiệm khoa học an toàn cho lớp 7.
+    educationalLevel: Lớp 7
+  - name: Câu lạc bộ Ngữ văn lớp 8
+    slug: chuong-trinh/ngu-van-8
+    description: Đọc hiểu và luyện viết theo chương trình lớp 8.
+    educationalLevel: Lớp 8
+datasets:
+  - name: Thống kê hoạt động học tập mẫu 2025–2026
+    description: Bộ số liệu hư cấu dùng để minh họa Dataset.
+    url: https://thcs.example.edu.vn/du-lieu/2025-2026
+    datePublished: 2026-06-01
+    license: https://creativecommons.org/licenses/by/4.0/
+    distribution:
+      - encodingFormat: text/csv
+        contentUrl: https://thcs.example.edu.vn/du-lieu/2025-2026.csv

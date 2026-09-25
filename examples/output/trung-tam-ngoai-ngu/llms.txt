@@ -1,0 +1,21 @@
+# Trung tâm Mẫu ABC
+
+> Dữ liệu minh họa hư cấu cho một trung tâm ngoại ngữ.
+
+## Tiếng Anh giao tiếp nền tảng
+
+Luyện phản xạ nghe nói qua tình huống thường ngày.
+
+- Link: https://example.edu.vn/khoa-hoc/tieng-anh-giao-tiep
+
+## IELTS nhập môn
+
+Làm quen bốn kỹ năng và cấu trúc bài thi IELTS.
+
+- Link: https://example.edu.vn/khoa-hoc/ielts-nhap-mon
+
+## Phát âm tiếng Anh thực hành
+
+Thực hành âm, trọng âm và ngữ điệu tiếng Anh.
+
+- Link: https://example.edu.vn/khoa-hoc/phat-am-thuc-hanh

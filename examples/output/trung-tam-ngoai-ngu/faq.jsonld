@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Khóa học có học thử không?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Đây là dữ liệu mẫu; chính sách học thử do từng đơn vị công bố."
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+site:
+  name: Trung tâm Mẫu ABC
+  baseUrl: https://example.edu.vn
+  language: vi
+organization:
+  name: Trung tâm Mẫu ABC
+  description: Dữ liệu minh họa hư cấu cho một trung tâm ngoại ngữ.
+  url: https://example.edu.vn
+  logo: https://example.edu.vn/logo.png
+  sameAs:
+    - https://facebook.com/example.edu.vn
+  address:
+    streetAddress: 123 Đường Mẫu
+    addressLocality: Thành phố Hồ Chí Minh
+    addressCountry: VN
+instructors:
+  - id: co-lan
+    name: Nguyễn Thị Lan (nhân vật hư cấu)
+    url: https://example.edu.vn/giang-vien/co-lan
+    knowsAbout:
+      - Tiếng Anh giao tiếp
+      - IELTS
+courses:
+  - name: Tiếng Anh giao tiếp nền tảng
+    slug: khoa-hoc/tieng-anh-giao-tiep
+    description: Luyện phản xạ nghe nói qua tình huống thường ngày.
+    courseCode: ENG-101
+    educationalLevel: Cơ bản
+    teaches:
+      - Phản xạ giao tiếp
+      - Phát âm
+    instances:
+      - courseMode: onsite
+        startDate: 2026-10-12
+        endDate: 2026-12-21
+        courseWorkload: PT30H
+        instructor:
+          - co-lan
+        location:
+          name: Cơ sở Quận 3
+          address: 123 Đường Mẫu, TP.HCM
+        offer:
+          price: 3200000
+          priceCurrency: VND
+          url: https://example.edu.vn/khoa-hoc/tieng-anh-giao-tiep
+          availability: InStock
+  - name: IELTS nhập môn
+    slug: khoa-hoc/ielts-nhap-mon
+    description: Làm quen bốn kỹ năng và cấu trúc bài thi IELTS.
+    educationalLevel: Sơ cấp
+    instances:
+      - courseMode: blended
+        startDate: 2026-11-02
+        instructor:
+          - co-lan
+        offer:
+          price: 4500000
+          priceCurrency: VND
+          url: https://example.edu.vn/khoa-hoc/ielts-nhap-mon
+  - name: Phát âm tiếng Anh thực hành
+    slug: khoa-hoc/phat-am-thuc-hanh
+    description: Thực hành âm, trọng âm và ngữ điệu tiếng Anh.
+    educationalLevel: Cơ bản
+    instances:
+      - courseMode: online
+        startDate: 2026-10-20
+        instructor:
+          - co-lan
+        offer:
+          price: 1800000
+          priceCurrency: VND
+          url: https://example.edu.vn/khoa-hoc/phat-am-thuc-hanh
+faq:
+  - question: Khóa học có học thử không?
+    answer: Đây là dữ liệu mẫu; chính sách học thử do từng đơn vị công bố.
+breadcrumbs:
+  - name: Trang chủ
+    url: /
+  - name: Khóa học
+    url: /khoa-hoc

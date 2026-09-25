@@ -1,0 +1,135 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "@id": "https://example.edu.vn/khoa-hoc/tieng-anh-giao-tiep#course",
+    "url": "https://example.edu.vn/khoa-hoc/tieng-anh-giao-tiep",
+    "name": "Tiếng Anh giao tiếp nền tảng",
+    "description": "Luyện phản xạ nghe nói qua tình huống thường ngày.",
+    "courseCode": "ENG-101",
+    "educationalLevel": "Cơ bản",
+    "inLanguage": "vi",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "@id": "https://example.edu.vn/#organization",
+      "name": "Trung tâm Mẫu ABC",
+      "url": "https://example.edu.vn/",
+      "sameAs": [
+        "https://facebook.com/example.edu.vn"
+      ]
+    },
+    "teaches": [
+      "Phản xạ giao tiếp",
+      "Phát âm"
+    ],
+    "hasCourseInstance": [
+      {
+        "@type": "CourseInstance",
+        "courseMode": "onsite",
+        "courseWorkload": "PT30H",
+        "startDate": "2026-10-12",
+        "endDate": "2026-12-21",
+        "location": {
+          "@type": "Place",
+          "name": "Cơ sở Quận 3",
+          "address": "123 Đường Mẫu, TP.HCM"
+        },
+        "instructor": [
+          {
+            "@type": "Person",
+            "@id": "https://example.edu.vn/giang-vien/co-lan#person",
+            "name": "Nguyễn Thị Lan (nhân vật hư cấu)",
+            "url": "https://example.edu.vn/giang-vien/co-lan"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": 3200000,
+          "priceCurrency": "VND",
+          "url": "https://example.edu.vn/khoa-hoc/tieng-anh-giao-tiep",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "@id": "https://example.edu.vn/khoa-hoc/ielts-nhap-mon#course",
+    "url": "https://example.edu.vn/khoa-hoc/ielts-nhap-mon",
+    "name": "IELTS nhập môn",
+    "description": "Làm quen bốn kỹ năng và cấu trúc bài thi IELTS.",
+    "educationalLevel": "Sơ cấp",
+    "inLanguage": "vi",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "@id": "https://example.edu.vn/#organization",
+      "name": "Trung tâm Mẫu ABC",
+      "url": "https://example.edu.vn/",
+      "sameAs": [
+        "https://facebook.com/example.edu.vn"
+      ]
+    },
+    "hasCourseInstance": [
+      {
+        "@type": "CourseInstance",
+        "courseMode": "blended",
+        "startDate": "2026-11-02",
+        "instructor": [
+          {
+            "@type": "Person",
+            "@id": "https://example.edu.vn/giang-vien/co-lan#person",
+            "name": "Nguyễn Thị Lan (nhân vật hư cấu)",
+            "url": "https://example.edu.vn/giang-vien/co-lan"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": 4500000,
+          "priceCurrency": "VND",
+          "url": "https://example.edu.vn/khoa-hoc/ielts-nhap-mon"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "@id": "https://example.edu.vn/khoa-hoc/phat-am-thuc-hanh#course",
+    "url": "https://example.edu.vn/khoa-hoc/phat-am-thuc-hanh",
+    "name": "Phát âm tiếng Anh thực hành",
+    "description": "Thực hành âm, trọng âm và ngữ điệu tiếng Anh.",
+    "educationalLevel": "Cơ bản",
+    "inLanguage": "vi",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "@id": "https://example.edu.vn/#organization",
+      "name": "Trung tâm Mẫu ABC",
+      "url": "https://example.edu.vn/",
+      "sameAs": [
+        "https://facebook.com/example.edu.vn"
+      ]
+    },
+    "hasCourseInstance": [
+      {
+        "@type": "CourseInstance",
+        "courseMode": "online",
+        "startDate": "2026-10-20",
+        "instructor": [
+          {
+            "@type": "Person",
+            "@id": "https://example.edu.vn/giang-vien/co-lan#person",
+            "name": "Nguyễn Thị Lan (nhân vật hư cấu)",
+            "url": "https://example.edu.vn/giang-vien/co-lan"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": 1800000,
+          "priceCurrency": "VND",
+          "url": "https://example.edu.vn/khoa-hoc/phat-am-thuc-hanh"
+        }
+      }
+    ]
+  }
+]

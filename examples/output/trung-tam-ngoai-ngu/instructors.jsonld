@@ -1,0 +1,13 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://example.edu.vn/giang-vien/co-lan#person",
+    "name": "Nguyễn Thị Lan (nhân vật hư cấu)",
+    "url": "https://example.edu.vn/giang-vien/co-lan",
+    "knowsAbout": [
+      "Tiếng Anh giao tiếp",
+      "IELTS"
+    ]
+  }
+]
