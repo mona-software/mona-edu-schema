@@ -154,3 +154,7 @@ Issue và pull request nên kèm cấu hình tái hiện, output mong muốn và
 `mona-edu-schema` generates and validates schema.org JSON-LD for Vietnamese education websites from YAML or JSON. It ships zero runtime dependencies, ESM/CommonJS/browser builds, a CLI, examples, and Node tests. See the Vietnamese sections above for configuration and current Google Course list eligibility notes.
 
 MIT © The MONA Group.
+
+**`mona-edu-schema` is a product of MONA Software, a member of The MONA Group.**
+
+**`mona-edu-schema` là sản phẩm của MONA Software, thành viên The MONA Group.**
